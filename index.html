@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Kidaiden - Anime Streaming</title>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <img class="rsz-logo" src="images/brand.png" alt="logo" onclick="(window.location.href='index.html')">
+      <ul id="links-container">
+        <a href="series.html">
+          <li>
+            <img class="icon-tv" src="icons\television.svg" alt="TV icon">
+            Series
+          </li>
+        </a>
+        <li>
+          <img class="icon-clapperboard" src="icons\clapperboard.svg" alt="Clapperboard icon">
+          Films
+        </li>
+        <li>
+          <img class="icon-openbook" src="icons\open-book.svg" alt="Openbook icon">
+          Read
+          <img class="icon-drop-down" src="icons\drop-down-arrow.svg" alt="Drop down arrow">
+        </li>
+        <a href="shop.html">
+          <li>
+            <img class="icon-shop" src="icons\open-book.svg">
+            Shop
+            <img class="icon-drop-down" src="icons\drop-down-arrow.svg" alt="Drop down arrow">
+          </li>
+        </a>
+      </ul>
+      <ul id="login-container">
+        <a href="#">
+          <li>
+            <img class="icon-avatar" src="icons\user.svg">
+            Login
+          </li>
+        </a>
+      </ul>
+      <div class="vertical-line"></div>
+      <ul id="search-container">
+        <li>
+          <img class="icon-search" src="icons\search.svg">
+          Search
+        </li>
+      </ul>
+      <ul id="shopping-container">
+        <li>
+          <div class="cart-container">
+            <img class="icon-shopping-cart" src="icons\shopping-cart.svg" alt="Shopping cart icon">
+            <p id="cart-count">0</p>
+          </div>
+          Cart
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+
+      <div class="homepage-video-container">
+        <video width="1366" style="position: absolute;" preload="metadata" autoplay="" loop="" muted="muted">
+          <!-- autoplay="" -->
+          <source type="video/mp4" src="videos/KuiyuChouyuan1080p60fpsEdit1.mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="transparent-gradient-container">
+          <p>Experience rich HDR and uncompromised animation quality. Premium features for only $9.99 a month!</p>
+          <a href="#">
+            <button type="button" class="image-buttons">START YOUR FREE TRIAL</button>
+          </a>
+        </div>
+      </div>
+      <div class="mini-container">
+        <h4>Our Premium Package Includes:</h4>
+        <div class="premium-package-container">
+          <div class="feature-1">
+            <img src="images\rsz_hdr10--logo.jpg" alt="HDR10">
+            <div class="horizontal-line"></div>
+            <p>HDR (High Dynamic Range) Rewards your viewing experience with unimaginable color vibrancy, richness, and depth.</p>
+          </div>
+          <div class="feature-2">
+            <img src="images\rsz_hevc_logo.jpg" alt="HEVC">
+            <div class="horizontal-line"></div>
+            <p>HEVC (High Efficiency Video Coding) provides you with a greater standard of high definition video, at no increase in file size.</p>
+          </div>
+          <div class="feature-3">
+            <img src="images\HIResAudio_logo.jpg" alt="Hi-Res Audio">
+            <div class="horizontal-line"></div>
+            <p>Hi-Res Audio (High-resolution audio) insures you receive high-fidelity sound, whether it be ambiance, speech or original soundtracks.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="poster-1">
+        <div class="black-overlay">
+          <h3>A Lifetime's Worth of Content!</h3>
+          <p>Whose got time for ads? Become a premium member today and get unrestricted, ad-free, access to over 1,000 series, 500+ manga’s and light novels, as well as 100+ anime films.</p>
+          <a href="#">
+            <button type="button">SIGN ME UP</button>
+          </a>
+        </div>
+      </div>
+      <div class="poster-2">
+        <div class="black-overlay">
+          <p>Buy physical copies of your favorite series, films, manga, or light novels. Plus, a tone of other merch include actions figures and apparel.</p>
+          <a href="shop.html">
+            <button type="button">EXPLORE OUR SHOP</button>
+          </a>
+        </div>
+      </div>
+      <div class="poster-3">
+        <div class="black-overlay">
+          <div class="space-between">
+            <h3>What Are You Waiting For?</h3>
+            <a href="#">
+              <button type="button">START YOUR FREE TRIAL</button>
+            </a>
+            <p>OR</p>
+            <a href="#">
+              <button type="button">GET A FREE ACCOUNT</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="center">
+          <ul>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="shipping-and-returns.html">Shipping & Returns</a>
+            </li>
+            <li>
+              <a href="guarantee.html">Satisfaction Guarantee</a>
+            </li>
+            <li>
+              <a href="privacy.html">Privacy Policy</a>
+            </li>
+            <li style="font-size: 14px; margin-top: 20px;">&#9400; KIDAIDEN All Rights Reserved.</li>
+          </ul>
+          <ul>
+            <li style="display: block; margin-bottom: 15px;">
+              <b>Follow Us On</b>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://www.facebook.com/"><img class="icon-facebook" src="icons\facebook.svg" alt="facebook icon"></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/"><img class="icon-twitter" src="icons\twitter-logo-silhouette.svg" alt="twitter icon"></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.youtube.com/"><img class="icon-youtube" src="icons\youtube-logo.svg" alt="youtube icon"></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
